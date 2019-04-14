@@ -12,7 +12,7 @@ class AsanaCard extends Component {
   _renderPose(asana, i) {
     const { sanskrit_name, english_name, img_url, targetArea, cues } = asana;
     return (
-      <Col m={3} s={12}>
+      <Col l={3} m={6} s={12}>
         <Card key={i} header={<CardTitle image={img_url} />}
           title={english_name}
           reveal={<div><p>{cues}</p><p>Great for targeting: {targetArea}</p></div>}>
