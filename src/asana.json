@@ -4,19 +4,19 @@
         "english_name": "Chair",
         "img_url": "https://drive.google.com/thumbnail?id=15rYCCe7IT_OsIMq-2b6YjBeLY8G_9oP5",
         "translation": "utkaṭa = fierce, asana = posture",
-        "category": "Standing",
-        "TargetArea": "Neutral Pelvis",
+        "category": "Standing / Closed Hip",
+        "targetArea": "Neutral Pelvis",
         "cues": "Start with feet hip-width or with big toes slightly touching. Bend the knees and engage the lower abs to keep the pelvis from tilting.",
-        "block": "Sun Sal B"
+        "block": "Sun Salutation B"
     },
     {
         "sanskrit_name": "Utthita Ashwa Sanchalanasana",
         "english_name": "High Crescent Lunge",
         "img_url": "https://drive.google.com/thumbnail?id=13EHWpj9m_t2tamOgRmVIviLyONr8WqyB",
         "translation": "utthita = extended, ashwa = horse, sanchalan = lunge, asana = posture",
-        "category": "Standing",
+        "category": "Standing / Closed Hip",
         "targetArea": "Neutral Pelvis",
-        "cues": "Font leg is bent 90 degrees and the other is stretched behind, heel stacked over the toes. Extend arms, biceps next to the ears.",
+        "cues": "Front knee is stacked directly over the ankle at 90 degrees. Back leg is straight, heel stacked over the toes. Extend arms, biceps next to the ears.",
         "block": ""
     },
     {
@@ -35,7 +35,7 @@
         "img_url": "https://drive.google.com/thumbnail?id=1rmFc3H6Jp-EisRCSVb-VbnIXvwSQY4c4",
         "translation": "baka = crane, asana = posture",
         "category": "Peak",
-        "TargetArea": "total body",
+        "targetArea": "Total body",
         "cues": "From squat or forward fold, place hands parallel, shoulder width apart.  Lean into hands and bring knees to back of triceps.  Lean forward lifting one foot and then the other until balancing.",
         "block": ""
     },
@@ -45,7 +45,7 @@
         "img_url": "https://drive.google.com/thumbnail?id=1Y1TsAvyDAHfYxRt9RkvwfwhTIxsGPIq3",
         "translation": "adho = downward, mukha = facing, svana = dog, asana = posture",
         "category": "Inversion",
-        "TargetArea": "Shoulder",
+        "targetArea": "Shoulder",
         "cues": "From table-top, step both feet back, keeping both arms straight. Lift hips towards the sky, making an inverted 'V'. Pull shoulders away from the ears and external rotate the triceps.",
         "block": "Vinyasa"
     },
@@ -64,7 +64,7 @@
         "english_name": "Upward-Facing Dog",
         "img_url": "https://drive.google.com/thumbnail?id=1MiKlBmAAd1ILuBSrbfXiT6WQxkM3fryu",
         "translation": "urdhva = upward, mukha = facing, svana = dog, asana = posture",
-        "category": "Strength",
+        "category": "Backbend",
         "targetArea": "Spinal",
         "cues": "On your stomach, hands parallel on either side of the ribcage, press evenly into the hands to lift the chest and open the heart. Engage quads to life the knees.",
         "block": "Vinyasa"
@@ -76,7 +76,7 @@
         "translation": "chatur = four, anga = limb, danda = staff, asana = posture",
         "category": "Strength",
         "targetArea": "Shoulder",
-        "cues": "straight body parallel to the ground is supported by the toes and palms, with elbows at a right angle.",
+        "cues": "From high-plank, lower the body parallel to the ground until the elbow are 90 degrees. Elbows should be parallel with the ribcage and not splayed out.",
         "block": "Vinyasa"
     },
     {
@@ -84,9 +84,9 @@
         "english_name": "Warrior One",
         "img_url": "https://drive.google.com/thumbnail?id=1TjeXdItWZJDn_nrxgBYZWMOyN3C0woEj",
         "translation": "virabhadra = warrior, asana = posture",
-        "category": "Standing",
+        "category": "Standing / Closed hip",
         "targetArea": "Neutral Pelvis",
-        "cues": "Font leg is bent 90 degrees and the back leg is stretched behind. Back foot is flat to the floor at a 45 degree angle. Hip points face forward. Extend arms, biceps next to the ears.",
+        "cues": "Front knee is stacked directly over the ankle at 90 degrees. Back foot is flat to the floor at a 45 degree angle. Hip points face forward. Extend arms, biceps next to the ears.",
         "block": "Sun Salutation B"
     },
     {
@@ -94,7 +94,7 @@
         "english_name": "Standing Forward Fold",
         "img_url": "https://drive.google.com/thumbnail?id=1KgRMa3IYuR5j7CPodj2BuMndjK4-uMOY",
         "translation": "uttana = stretch out, asana = posture",
-        "category": "Standing",
+        "category": "Standing / Closed Hip",
         "targetArea": "Spinal",
         "cues": "Hinge at the hips to keep back straight as you drop your head below your heart. Hands come to the floor or blocks. If too intense on the hamstrings, bend the knees.",
         "block": "Sun Salutation A"
@@ -104,7 +104,7 @@
         "english_name": "Half-lift",
         "img_url": "https://drive.google.com/thumbnail?id=1VPaNvliC0qg2GUI-bBKLuRuCuCnbXveE",
         "translation": "ardha = half, uttana = stretch out, asana = posture",
-        "category": "Standing",
+        "category": "Standing / Closed Hip",
         "targetArea": "Spinal",
         "cues": "From forward fold, pull shoulder blades together to lift the chest, coming to a flat back. Finger tips can stay on the floor or bring hands to shins for more support.",
         "block": "Sun Salutation A"
@@ -126,7 +126,7 @@
         "translation": "dhanur = bow, asana = posture",
         "category": "Backbend",
         "targetArea": "Spinal",
-        "cues": "Start on stomach. Bend knees and grab tops of feet or ankles. Exhale and push into your hands as you pull, diametrically. Lift sternum to open heart.",
+        "cues": "Starting on stomach, bend knees and grab tops of feet or ankles. Exhale and push into your hands as you pull, diametrically. Lift sternum to open heart.",
         "block": ""
     },
     {
@@ -154,7 +154,7 @@
         "english_name": "Tree pose",
         "img_url": "https://drive.google.com/thumbnail?id=19KZVkN5i709_mWl7wxfkT1X4klPDSTHC",
         "translation": "vṛkṣa = tree, asana = posture",
-        "category": "Balance",
+        "category": "Balancing",
         "targetArea": "Hips",
         "cues": "Start with weight distributed evenly through both feet. Shift the weight to one foot and lift the other, opening the hip to turn the knee 90 degrees. Place the foot above or below the standing knee.",
         "block": ""
@@ -194,9 +194,51 @@
         "english_name": "Garland pose / Squat",
         "img_url": "https://drive.google.com/thumbnail?id=1ckqDzJtcczNLpxkx5hiMTS1Ldh4JBwAM",
         "translation": "mala = garland, asana = posture",
-        "category": "Hip opener",
+        "category": "Hip Opener",
         "targetArea": "Hips",
         "cues": "Take a slightly wider stance than hips-width. Turn the feet out at 45 degrees. Bend your knees and keep the back straight as you descend. Triceps will diametrically press against the inner thigh as you contract the groin.",
+        "block": ""
+    },
+    {
+        "sanskrit_name": "Baddha Konasana",
+		"english_name": "Butterfly pose",
+		"img_url": "https://drive.google.com/thumbnail?id=1Rd70CW8Ph12euUyuF_LWwNQGn0hvaqK5",
+        "translation": "baddha = bound, koṇa = angle, asana = posture",
+		"category": "Hip Opener",
+        "targetArea": "Inner thigh",
+        "cues": "In sitting position, bend both knees and drop the knees to each side, opening the hips.  Bring the soles of the feet together and bring the heels as close to the groin as possible, keeping the knees close to the ground.  The hands may reach down and grasp and maneuver the feet so that the soles are facing upwards and the heels and little toes are connected.  The shoulders should be pulled back and no rounding of the spine.",
+        "block": ""
+
+    },
+    {
+        "sanskrit_name": "Garudasana",
+		"english_name": "Eagle",
+		"img_url": "https://drive.google.com/thumbnail?id=1CzKzSdTIJv-4ruqgtjkWmjl2bvo5_DOC",
+		"translation": "garuḍa = eagle, asana = posture",
+		"category": "Balancing",
+		"targetArea": "Shoulder",
+		"cues": "Start with weight distributed evenly between both feet. Bend your knees like you are about to sit in a chair. Lift one leg and cross it over the other. Wrap foot around calf, if desired. The arm on the same side as the standing leg crosses under and the opposite arm crosses over. Arms cross in front of the face, elbows at 90 degrees. Hands towards the sky. Wrap the hands if desired.",
+        "block": ""
+    },
+    {
+        "sanskrit_name": "Utthita Hasta Padangusthasana",
+		"english_name": "Extended Hand to Toe",
+		"img_url": "https://drive.google.com/thumbnail?id=1enpBYv2VonbWTriGaJI1q2828F2W8yTr",
+        "translation": "utthita = extended, hasta = hand, pada = foot, angustha = big toe, asana = posture",
+        "category": "Balancing",
+        "targetArea": "Hips",
+        "cues": "Write some cues",
+        "block": ""
+
+    },
+    {
+        "sanskrit_name": "Utthita Parsvakonasana",
+		"english_name": "Extended Side Angle",
+		"img_url": "https://drive.google.com/thumbnail?id=1EBO872tYdKawRNbI167r8mRU0Bb6Qdg8",
+		"translation": "utthita = extended', 'parsva = side', 'koṇa = angle', 'asana = posture",
+		"category": "Standing / Hip Open",
+        "targetArea": "Lateral side-stretch",
+        "cues": "Front knee is stacked directly over the ankle at 90 degrees. The back leg is straight and hip is open. Outside blade of the back foot is parallel to the back of the mat.",
         "block": ""
     }
 ]
