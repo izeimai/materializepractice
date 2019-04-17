@@ -8,12 +8,13 @@ class AsanaCard extends Component {
 
   state = {
     categories: ["Backbends", "Balancing", "Hip", "Inversion", "Peak", "Seated", "Shoulder", "Standing", "Supine", "Twists"],
+    asana : asanaJson,
     selected: []
   };
 
   _renderCategory(category, i) {
     return (
-      <a href={category} key={i} className="purple-text">
+      <a href={category} key={i} value={category} onClick={this._sortByCategory} className="purple-text">
         {category}
       </a>
     )
@@ -41,6 +42,15 @@ class AsanaCard extends Component {
     );
   }
 
+  _sortByCategory(e) {
+    for(var i = 0; i < this.state.asana; i++){
+      if(this.state.asana[i].category === e.target.value){
+        this.state.selected.push(this.state.asana[i]);
+      }
+      console.log(this.state.selected)
+    }
+  }
+
   render() {
     return (
       <div>
@@ -53,7 +63,7 @@ class AsanaCard extends Component {
         <br></br>
         <br></br>
         <Row>
-          {asanaJson.map(this._renderPose)}
+          {this.state.asana.map(this._renderPose)}
         </Row>
       </div>
     );
