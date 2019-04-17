@@ -8,24 +8,37 @@ class AsanaCard extends Component {
 
   state = {
     categories: ["Backbends", "Balancing", "Hip", "Inversion", "Peak", "Seated", "Shoulder", "Standing", "Supine", "Twists"],
-    asana : asanaJson,
-    selected: []
+    asana: asanaJson,
+    selected: [],
+    selectedCategory: ""
   };
 
+
+
   _renderCategory(category, i) {
+
+    function handleClick(e, value) {
+      e.preventDefault();
+      console.log("Category button clicked");
+    }
+
     return (
-      <a href={category} key={i} value={category} onClick={this._sortByCategory} className="purple-text">
+      <a href="/" key={i} value={category} onClick={handleClick} className="purple-text">
         {category}
       </a>
     )
   }
 
-  _renderPose(asana, i) {
+  _renderPose(asana) {
     const { sanskrit_name, english_name, img_url, targetArea, translation, cues } = asana;
+
+    function _addPose(e) {
+      console.log("Add button clicked")
+    };
+
     return (
       <Col l={3} m={6} s={12}>
-
-        <Card key={i} header={<CardTitle image={img_url} />}
+        <Card key={english_name} header={<CardTitle image={img_url} />}
           title={english_name}
           reveal={<div><p>{cues}</p><p>Great for targeting: {targetArea}</p><p>Translation: {translation}</p></div>}>
           <Button
@@ -34,7 +47,7 @@ class AsanaCard extends Component {
             className="purple"
             waves="light"
             icon="add"
-            onClick=""
+            onClick={_addPose}
           />
           <span>{sanskrit_name}</span>
         </Card>
@@ -43,13 +56,21 @@ class AsanaCard extends Component {
   }
 
   _sortByCategory(e) {
-    for(var i = 0; i < this.state.asana; i++){
-      if(this.state.asana[i].category === e.target.value){
+    //Clear asana
+    this.setState({ asana: "" });
+    // Loop through the original Json for matching category poses
+    for (var i = 0; i < asanaJson; i++) {
+      if (asanaJson[i].category === e.target.value) {
         this.state.selected.push(this.state.asana[i]);
       }
-      console.log(this.state.selected)
+      this.handleChange(e.target.value);
+      return (this.state.selected);
     }
   }
+
+  handleChange = (event) => {
+    this.setState({ asana: event.target.value });
+  };
 
   render() {
     return (

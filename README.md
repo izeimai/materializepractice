@@ -14,6 +14,32 @@ ${process.env.REACT_APP_whateveryoucalledit}`
 ---
 
 
+# How to add Materialize and React-Materialize
+
+## Critical changes
+* Install the react-materialize package
+npm i materialize-css
+npm i react-materialize
+
+* Putting the required files in the public folder
+1) css folder contains materialize.css, materialize.min.css
+2) js folder contains materialize.js, materialize.min.js
+3) index.thml (where the root div is), add these to the head:
+```
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+```
+4) Then add to the bottom of the body:
+```
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+```
+---
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
