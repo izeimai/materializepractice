@@ -9,6 +9,10 @@ img{
     max-width: 90%;
 }
 
+p{
+    margin:10px
+}
+
 .purple{
     position: absolute;
     top: 10px;
