@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-import { Button, Card, CardTitle, Divider, Dropdown, Row, Col } from 'react-materialize';
+import { Button, Card, CardTitle, Divider, Dropdown, Footer, Row, Col } from 'react-materialize';
 import asanaJson from '../../asana.json';
 
 
@@ -9,14 +9,14 @@ class AsanaCard extends Component {
   state = {
     categories: ["Backbend", "Balancing", "Hip", "Inversion", "Peak", "Seated", "Standing", "Strength", "Supine"],
     filteredAsana: asanaJson,
-    selected : []
+    selected: []
   };
 
   filterAsana = (e) => {
     let filteredAsana = asanaJson;
     filteredAsana = filteredAsana.filter((asana) => {
       return asana.category === e.target.innerHTML
-})
+    })
     this.setState({
       filteredAsana
     })
@@ -26,17 +26,16 @@ class AsanaCard extends Component {
     var selected = this.state.selected;
     selected.push(id)
     this.setState({
-      selected : selected
+      selected: selected
     })
     console.log(this.state.selected);
-    this.setState({clicked:!this.state.clicked})
+    this.setState({ clicked: !this.state.clicked })
   }
 
   _renderPose(asana, i) {
     const { id, sanskrit_name, english_name, img_url, targetArea, translation, category, cues } = asana;
     return (
       <Col l={3} m={6} s={12}>
-
         <Card key={id} header={<CardTitle image={img_url} />}
           title={english_name}
           reveal={<div><p>{cues}</p><p>Category: {category}</p><p>Great for targeting: {targetArea}</p><p>Translation: {translation}</p></div>}>
@@ -46,7 +45,7 @@ class AsanaCard extends Component {
             className="purple"
             waves="light"
             icon="add"
-            disabled={this.state.selected.indexOf(id) === -1 ?  false : true} 
+            disabled={this.state.selected.indexOf(id) === -1 ? false : true}
             onClick={() => this.addPose(id)}
           />
           <span>{sanskrit_name}</span>
@@ -71,6 +70,11 @@ class AsanaCard extends Component {
         <Row>
           {this.state.filteredAsana.map((this._renderPose).bind(this))}
         </Row>
+        <br></br>
+        <br></br>
+        <Footer>
+              <a href="/" className="white-text center"><h4>Generate Sequence</h4></a>
+        </Footer>
       </div>
     );
   }
