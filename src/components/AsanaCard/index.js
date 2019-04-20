@@ -29,6 +29,7 @@ class AsanaCard extends Component {
       selected : selected
     })
     console.log(this.state.selected);
+    this.setState({clicked:!this.state.clicked})
   }
 
   _renderPose(asana, i) {
@@ -45,6 +46,7 @@ class AsanaCard extends Component {
             className="purple"
             waves="light"
             icon="add"
+            disabled={this.state.selected.indexOf(id) === -1 ?  false : true} 
             onClick={() => this.addPose(id)}
           />
           <span>{sanskrit_name}</span>
@@ -52,16 +54,6 @@ class AsanaCard extends Component {
       </Col>
     );
   }
-
-  // _sortByCategory = (category) => {
-  //   console.log(category);
-    // for (var i = 0; i < this.state.asana; i++) {
-    //   if (this.state.asana[i].category === category.category) {
-    //     this.state.selected.push(this.state.asana[i]);
-    //   }
-    //   console.log(this.state.asana)
-    // }
-  // }
 
   render() {
     return (
